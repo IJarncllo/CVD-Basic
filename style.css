@@ -308,12 +308,12 @@ justify:space-between;
 .footer__social {
   color: gray;
   display: flex;
-  justify-content: center;
-  align-items: auto;
+  align-items:center;
+  gap:2rem;
 }
 .footer__social ul{
   display: flex;
-
+  gap:1rem;
 }
 
 /* REPEATABLE PATTERNS */
