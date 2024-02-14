@@ -4,3 +4,14 @@ burgir.addEventListener("click", () => {
     burgir.classList.toggle("open");
     headerNav.classList.toggle("open");
 })
+
+const header = document.querySelector(".header");
+window.console.log(scrollY);
+window.addEventListener("scroll", () => {
+  if (scrollY >= 500) {
+    header.classList.add("open");
+  } else {
+    header.classList.remove("open");
+  }
+});
+
